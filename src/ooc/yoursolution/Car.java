@@ -19,7 +19,10 @@ public class Car implements CarInterface{
     public Map<Month, boolean[]> createAvailability() {
      
        CarInterface Car = new Car(); 
-       //create a car and nothing in it
+       //create a car but nothing in it
+        Map<Month, boolean[]> months = Car.createAvailability();
+       
+       
        return (Map<Month, boolean[]>) Car;
         
     }
@@ -27,6 +30,7 @@ public class Car implements CarInterface{
     @Override
     public Make getMake() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override
