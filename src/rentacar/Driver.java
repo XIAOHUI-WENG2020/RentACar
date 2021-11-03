@@ -26,7 +26,7 @@ import java.io.IOException;
 
 /**
  *
- * @author apont
+ * @author XiaoHui Weng 2020387
  */
 public class Driver {
 
