@@ -12,7 +12,8 @@ import java.util.Map;
 /**
  * This is one of the interfaces you need to implement
  * 
- * @author apont
+ * @author Xiaohui Weng
+ * git Link:https://github.com/XIAOHUI-WENG2020/RentACar.git
  */
 public interface CarInterface {
     
